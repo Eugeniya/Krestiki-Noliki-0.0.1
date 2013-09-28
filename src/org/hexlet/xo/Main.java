@@ -34,7 +34,7 @@ public class Main {
             game.nextTurn(game.currentPlayer().onMove(0, 0));
             game.nextTurn(computer.doMove(game.getField()));
 
-            game.nextTurn(game.currentPlayer().onMove(0, 2));
+            game.nextTurn(game.currentPlayer().onMove(1, 2));
             game.nextTurn(computer.doMove(game.getField()));
 
 

@@ -11,14 +11,6 @@ public class FieldController {
     private final static int NEED_CHARACTERS_TO_WIN = 3;
     private Field field;
 
-/*    public FieldController() {
-        this(Field.DEFAULT_FIELD_SIZE);
-    }
-
-    //add
-    public FieldController(int size) {
-        field = new Field(size);
-    }*/
 
     public boolean checkWin(CellState figure) {
 
@@ -80,7 +72,6 @@ public class FieldController {
         } else {
             field = new Field(size);
         }
-        //field = new Field(size);
     }
 
     public boolean isAvailable(CellInfo cell) throws InvalidCellCoordinatesException {
@@ -96,7 +87,6 @@ public class FieldController {
         return field.SIZE;
     }
     public Field getField() {
-        //return field.getField();
         return field;
     }
     public int getEmptyCellsCount() {

@@ -8,7 +8,6 @@ public class Field implements Cloneable {
     public static final int DEFAULT_FIELD_SIZE = 3;
     public final int SIZE;
     private CellState[][] field;
-    //private int availableCell;
 
     public Field(int fieldSize) {
         SIZE = fieldSize;
@@ -50,7 +49,6 @@ public class Field implements Cloneable {
         anyone can write in field array directly
          */
         CellState [][] fieldCopy = new CellState[SIZE][SIZE];
-        //Field fieldCopy
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
                 fieldCopy[i][j] = field[i][j];
