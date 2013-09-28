@@ -28,7 +28,7 @@
 
 _ _ X
 _ 0 _
-_ _ _
+  _ 
 
             game.nextTurn(game.currentPlayer().onMove(2, 1));
             game.nextTurn(computer.doMove(game.getField()));
