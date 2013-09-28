@@ -45,7 +45,9 @@ _ _ 0
             game.nextTurn(computer.doMove(game.getField()));
 
 X 0 X
+
 _ 0 X
+
 _ _ 0
 
             game.nextTurn(game.currentPlayer().onMove(1, 2));
